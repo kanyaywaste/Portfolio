@@ -1,23 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <div id="bg">
-    <head>
-      <link rel="stylesheet" href="styles.css" />
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelopia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Sixtyfour&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
 
-      <title>Salman Portfolio</title>
-    </head>
-    <body>
-      <h1>Salman Shaik</h1>
-      <div id="self">
-        <p1>
-Under construction</p1
+  <body>
+    <nav class="header">
+      <div class="header-left"><a href="#">Travelopia</a></div>
+
+      <div class="header-middle">
+        <div>
+          <input class="search-space" type="text" placeholder="Search" />
+        </div>
+        <div>
+          <button onclick="func()" class="search-button">
+            <img class="search-glass" src="assets/search.svg" />
+          </button>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <a class="header-link" href="https://www.travelopia.com/">Home</a>
+        <a class="header-link" href="https://www.travelopia.com/about-us/"
+          >About Us</a
+        >
+        <a class="header-link" href="https://www.travelopia.com/our-brands/"
+          >Our Brands</a
+        >
+        <a class="header-link" href="https://www.travelopia.com/sustainability/"
+          >Sustainability</a
+        >
+        <a class="header-link" href="https://www.travelopia.com/work-with-us/"
+          >Work with us</a
         >
       </div>
-      <button class="img-b1"><img src="email.svg" /></button>
-      <button><img src="cam.png" /></button>
-      <button><img src="cam.png" /></button>
-    </body>
-  </div>
+    </nav>
+
+    <main class="outer">
+      <img src="assets/bg.jpg" width="1565px" height="1000px" />
+      <div class="overlay"></div>
+      <div class="title"><h1>Wanderlust</h1></div>
+      <button id="only-button1">Click Here</button>
+    </main>
+
+    <footer class="footer">
+      <div class="brandress">
+        <div id="footer-logo">Travelopia</div>
+        <div id="footer-address">
+          Origin One, 108 High Street, Crawley, <br>West Sussex, RH10 1BD United
+          Kingdom
+        </div>
+      </div>
+
+      <div class="f1">
+        <div><a href="https://www.travelopia.com/about-us/">About Us</a></div>
+        <div><a href="https://www.travelopia.com/our-brands/">Our Brands</a></div>
+        <div><a href="https://www.travelopia.com/sustainability/">Sustainability</a></div>
+        <div><a href="https://www.travelopia.com/leadership/">Leadership</a></div>
+        <div><a href="https://www.travelopia.com/our-brands/travelopia-group-functions/">Travelopia Group Functions</a></div>
+        <div><a href="https://www.travelopia.com/reports/">Reports</a></div>
+      </div>
+
+      <div class="f2">
+        <div><a href="https://www.travelopia.com/#">Contact Us</a></div>
+        <div><a href="https://www.travelopia.com/work-with-us/">Work with us</a></div>
+        <div><a href="https://www.travelopia.com/privacy-policy/">Privacy Policy</a</div>
+        <div><a href="https://www.travelopia.com/cookies-policy/">Cookie Policy</a></div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
 </html>

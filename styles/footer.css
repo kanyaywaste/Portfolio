@@ -1,0 +1,31 @@
+.footer {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(48, 201, 201);
+  padding: 20px 0px 30px 60px;
+  justify-content: space-between;
+  margin: 0px;
+  overflow: hidden;
+}
+
+#footer-logo {
+  font-family: "sixtyfour", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#footer-address {
+  margin-top: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+.brandress,
+.f1,
+.f2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  flex: 1;
+  padding: 4px;
+}
