@@ -1,1 +1,202 @@
+/* Smartphones */
+@media only screen and (max-width: 767px) {
+  .header-title {
+    font-size: 10px;
+  }
+  .header-logo {
+    width: 20px;
+    height: 5px;
+  }
 
+  .logo {
+    width: 10px;
+    height: 10px;
+    margin: 0px 2px 0px 0px;
+  }
+
+  .header-right {
+    width: 100px;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-size: 6px;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+  }
+
+  .title {
+    font-size: 10px;
+    top: 100px;
+  }
+
+  #only-button1 {
+    height: 25px;
+    width: 100px;
+  }
+
+  .footer {
+    padding: 10px 15px 15px 10px;
+  }
+}
+
+/* Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .header-title {
+    font-size: 10px;
+  }
+  .header-logo {
+    width: 20px;
+    height: 5px;
+  }
+
+  .logo {
+    width: 10px;
+    height: 10px;
+    margin: 0px 2px 0px 0px;
+  }
+
+  .header-right {
+    width: 100px;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-size: 6px;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+  }
+
+  .title {
+    font-size: 10px;
+    top: 100px;
+  }
+
+  #only-button1 {
+    height: 25px;
+    width: 100px;
+  }
+
+  .footer {
+    padding: 10px 15px 15px 10px;
+  }
+}
+
+/* Desktops and laptops */
+@media only screen and (min-width: 1024px) {
+  /* Styles for desktops and laptops go here */
+  .header-title {
+    font-size: 10px;
+  }
+  .header-logo {
+    width: 20px;
+    height: 5px;
+  }
+
+  .logo {
+    width: 10px;
+    height: 10px;
+    margin: 0px 2px 0px 0px;
+  }
+
+  .header-right {
+    width: 100px;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-size: 6px;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+  }
+
+  .title {
+    font-size: 10px;
+    top: 100px;
+  }
+
+  #only-button1 {
+    height: 25px;
+    width: 100px;
+  }
+
+  .footer {
+    padding: 10px 15px 15px 10px;
+  }
+}
+/* Landscape orientation */
+@media only screen and (orientation: landscape) {
+  /* Styles for landscape orientation go here */
+  .header-title {
+    font-size: 10px;
+  }
+  .header-logo {
+    width: 20px;
+    height: 5px;
+  }
+
+  .logo {
+    width: 10px;
+    height: 10px;
+    margin: 0px 2px 0px 0px;
+  }
+
+  .header-right {
+    width: 100px;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-size: 6px;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+  }
+
+  .title {
+    font-size: 10px;
+    top: 100px;
+  }
+
+  #only-button1 {
+    height: 25px;
+    width: 100px;
+  }
+
+  .footer {
+    padding: 10px 15px 15px 10px;
+  }
+}
+
+/* Portrait orientation */
+@media only screen and (orientation: portrait) {
+  /* Styles for portrait orientation go here */
+  .header-title {
+    font-size: 10px;
+  }
+  .header-logo {
+    width: 20px;
+    height: 5px;
+  }
+
+  .logo {
+    width: 10px;
+    height: 10px;
+    margin: 0px 2px 0px 0px;
+  }
+
+  .header-right {
+    width: 100px;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-size: 6px;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+  }
+
+  .title {
+    font-size: 10px;
+    top: 100px;
+  }
+
+  #only-button1 {
+    height: 25px;
+    width: 100px;
+  }
+
+  .footer {
+    padding: 10px 15px 15px 10px;
+  }
+}
