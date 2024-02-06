@@ -14,62 +14,43 @@ body {
   padding: 15px;
   align-items: center;
   justify-content: space-between;
-  z-index: 100;
   overflow: hidden;
 }
 
 .header-left {
-  font-family: "Sixtyfour", sans-serif;
-  font-size: 35px;
-  font-weight: bolder;
-  flex-shrink: 0;
-  flex: 1;
-}
-
-.header-middle {
-  flex: 1;
-  align-items: center;
   display: flex;
-  margin-left: 35px;
   flex-shrink: 0;
-}
-
-.search-space {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  height: 30px;
   flex: 1;
-  border: 1px solid white;
-  border-radius: 15px;
-  box-shadow: inset 2px 1px 3px rgba(0, 0, 0, 0.15);
+  padding-left: 2%;
+  justify-content: left;
 }
 
-.search-space::placeholder {
-  padding-left: 10px;
-}
-
-.search-button {
-  height: 30px;
-  align-self: center;
-  background-color: white;
-  border: none;
-  margin-left: -40px;
-  opacity: 0.5;
-  cursor: pointer;
-  margin-top: 5px;
-}
-
-.search-glass {
+.header-logo {
+  width: 70px;
   height: 20px;
 }
 
+.header-title {
+  flex: 1;
+  font-family: "Sixtyfour", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(189, 30, 56);
+  align-items: left;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px 0px 0px;
+}
+
 .header-right {
-  width: 200px;
+  width: 600px;
   display: flex;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  flex: 1;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-shrink: 0;
 }
 
