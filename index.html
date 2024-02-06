@@ -17,34 +17,34 @@
 
   <body>
     <nav class="header">
-      <div class="header-left"><a href="#">Travelopia</a></div>
 
-      <div class="header-middle">
-        <div>
-          <input class="search-space" type="text" placeholder="Search" />
+      <div class="header-left">
+      <div class="header-logo">
+          <a href="#">
+            <img class="logo" src="assets/logo.png">
+          </a>
         </div>
-        <div>
-          <button onclick="func()" class="search-button">
-            <img class="search-glass" src="assets/search.svg" />
-          </button>
-        </div>
-      </div>
+        <div class="header-title"> 
+          <a href="#">Travelopia</a>
+         </div> 
+    </div>
 
       <div class="header-right">
-        <a class="header-link" href="https://www.travelopia.com/">Home</a>
-        <a class="header-link" href="https://www.travelopia.com/about-us/"
-          >About Us</a
-        >
-        <a class="header-link" href="https://www.travelopia.com/our-brands/"
+        <div><a class="header-link" href="https://www.travelopia.com/our-brands/"
           >Our Brands</a
-        >
-        <a class="header-link" href="https://www.travelopia.com/sustainability/"
+        ></div>
+        <div><a class="header-link" href="https://www.travelopia.com/sustainability/"
           >Sustainability</a
-        >
-        <a class="header-link" href="https://www.travelopia.com/work-with-us/"
+        ></div>
+        <div><a class="header-link" href="https://www.travelopia.com/work-with-us/"
           >Work with us</a
-        >
+        ></div>
+
+        <div><a class="header-link" href="https://www.travelopia.com/about-us/"
+          >About Us</a></div>
       </div>
+
+      
     </nav>
 
     <main class="outer">
@@ -52,9 +52,15 @@
       <div class="overlay"></div>
       <div class="title"><h1>Wanderlust</h1></div>
       <button id="only-button1">Click Here</button>
+      <audio id="clickSound" src="assets/click.mp3"></audio>
     </main>
 
+
+
+
+    
     <footer class="footer">
+
       <div class="brandress">
         <div id="footer-logo">Travelopia</div>
         <div id="footer-address">
@@ -64,21 +70,22 @@
       </div>
 
       <div class="f1">
-        <div><a href="https://www.travelopia.com/about-us/">About Us</a></div>
-        <div><a href="https://www.travelopia.com/our-brands/">Our Brands</a></div>
-        <div><a href="https://www.travelopia.com/sustainability/">Sustainability</a></div>
-        <div><a href="https://www.travelopia.com/leadership/">Leadership</a></div>
-        <div><a href="https://www.travelopia.com/our-brands/travelopia-group-functions/">Travelopia Group Functions</a></div>
-        <div><a href="https://www.travelopia.com/reports/">Reports</a></div>
+        <div class="inlinks"><a href="https://www.travelopia.com/sustainability/">Sustainability</a></div>
+        <div class="inlinks"><a href="https://www.travelopia.com/leadership/">Leadership</a></div>
+        <div class="inlinks"><a href="https://www.travelopia.com/our-brands/travelopia-group-functions/">Travelopia Group Functions</a></div>
+        <div class="inlinks"><a href="https://www.travelopia.com/reports/">Reports</a></div>
       </div>
 
       <div class="f2">
-        <div><a href="https://www.travelopia.com/#">Contact Us</a></div>
-        <div><a href="https://www.travelopia.com/work-with-us/">Work with us</a></div>
-        <div><a href="https://www.travelopia.com/privacy-policy/">Privacy Policy</a</div>
-        <div><a href="https://www.travelopia.com/cookies-policy/">Cookie Policy</a></div>
+        <div class="inlinks"><a href="https://www.travelopia.com/#">Contact Us</a></div>
+        <div class="inlinks"><a href="https://www.travelopia.com/work-with-us/">Work with us</a></div>
+        <div class="inlinks"><a href="https://www.travelopia.com/privacy-policy/">Privacy Policy</a</div>
+        <div class="inlinks"><a href="https://www.travelopia.com/cookies-policy/">Cookie Policy</a></div>
       </div>
+
     </footer>
-  </body>
+
+
+  </body> 
   <script src="script.js"></script>
 </html>
