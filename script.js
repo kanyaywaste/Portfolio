@@ -17,7 +17,7 @@ const p  = "hello world, i am a practicing human, techie and an artist. i am spe
 
 const p0 = "this space is where you will see white-papers, blogs, one-liners, shower thoughts and memes that i come up with. all original, or atleast relatively ;) when i write, you will hear about it on my socials"
 
-const p1 = "Linux, HTML, CSS, JavaScript, node.js, SQL, MongoDB, SFDC, ServiceNow, JIRA, API Testing on Postman, REST APIs, SOAP, Webhooks, XML, JSON, HTTP methods, GIT, Github. Chrome Developer tools, Incident Management, ITIL ,analytics, cloud computing, networking basics...etc"
+const p1 = "Linux, HTML, CSS, JavaScript, node.js, SQL, MongoDB, SFDC, ServiceNow, JIRA, API Testing on Postman, REST APIs, SOAP, Webhooks, XML, JSON, HTTP methods, GIT, Github. Chrome Developer tools, incident Management, ITIL,analytics, cloud computing, networking basics...etc"
 
 const p2 = "i can design images, motion graphics, websites, emails, edit audio and direct video. i have an understanding of design principles and inherent taste for design that overflows from one medium to another seamlessly often helping me visualize better. my experience in web development makes me parallely think of bringing design to reality. tools i use: canva, photoshop, figma, fl studio, davinci resolve, html/css/js for web...etc" 
 
@@ -37,7 +37,7 @@ function typeWriter() {
 typeWriter();
 
 const backbutton =  function(){
-  buttons.innerHTML = `<a href  = 'file:///C:/Users/write/OneDrive/Desktop/projects/SalmanPortfolio/index.html' id = 'bb' class='button'>
+  buttons.innerHTML = `<a href=index.html id='bb' class='button'>
 <<< back 
 </a>`;
 };
