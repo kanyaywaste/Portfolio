@@ -97,8 +97,14 @@ h1:hover, h1:active {
   left: 0px; 
   opacity: 0.3;
   z-index:999;
+  transition: 300ms;
 }
 
 #walker:hover, #walker:active {
   opacity: 0.9;
+}
+
+#walkcontainer {
+  height: 100px;
+  width: 40px;
 }

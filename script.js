@@ -1,27 +1,30 @@
 "use strict";
 
-let  i  = 0, j = 0 , k = 0 ,l = 0 , m = 0 ,n = 0;
+let  i  = 0, j = 0 , k = 0 ,l = 0 , m = 0 ,n = 0, w = 0;
 let speed = 25; 
 const wrap1 = document.querySelector('#wrap1');
 const prose = document.querySelector('#prose');
-const human = document.querySelector('#human');
-const tech = document.querySelector('#tech');
-const design = document.querySelector('#design');
-const marketing = document.querySelector('#marketing');
-const contact = document.querySelector('#contact');
+
 const buttons = document.querySelector('#buttons');
 const heading = document.querySelector('#heading');
 const walker = document.getElementById('walker');
 
 const walk = function(){
-  console.log(walker.style);
-  console.log(walker.style.left);
-  console.log(walker.style.bottom);
-  // console.log('walk fuunc was called');
-  walker.style.left += 1;
+  if(w<1350) 
+  {
+    walker.style.left = `${w+2}px`
+    w++ 
+  }
+  else        
+  {
+    w = 1;
+    walker.style.left = `${w+1}px`
+    w++
+  }
+  setTimeout(walk, 50);
 };
 
-setInterval(walk,1500);
+walk();
 
 const p  = "hello world, i am a practicing human, techie, and artist. i spend most of my time learning tech, listening to music, scrolling through reddit, and occasionally enjoying watching movies or stand-up comedy. i live in india with my wife and parents. you're welcome to explore more about me and consult me regarding the below fields"
 
@@ -42,7 +45,7 @@ function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   }
-}
+} 
 
 typeWriter();
 
@@ -148,7 +151,11 @@ contact.addEventListener('click', function(e){
   setTimeout(backbutton,2500 );
 } );
 
-
+// const human = document.querySelector('#human');
+// const tech = document.querySelector('#tech');
+// const design = document.querySelector('#design');
+// const marketing = document.querySelector('#marketing');
+// const contact = document.querySelector('#contact');
 
 
 // human.addEventListener('click', function(e){
