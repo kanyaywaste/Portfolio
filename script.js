@@ -11,15 +11,25 @@ const marketing = document.querySelector('#marketing');
 const contact = document.querySelector('#contact');
 const buttons = document.querySelector('#buttons');
 const heading = document.querySelector('#heading');
+const walker = document.getElementById('walker');
 
+const walk = function(){
+  console.log(walker.style);
+  console.log(walker.style.left);
+  console.log(walker.style.bottom);
+  // console.log('walk fuunc was called');
+  walker.style.left += 1;
+};
 
-const p  = "hello world, i am a practicing human, techie and an artist. i am spending most of time learning tech, listening to music, scrolling through reddit and i enjoy watching movies / standup comedy occasionally. i live in india, with my wife and parents. use to below buttons to learn more about me."
+setInterval(walk,1500);
 
-const p0 = "this space is where you will see white-papers, blogs, one-liners, shower thoughts and memes that i come up with. all original, or atleast relatively ;) when i write, you will hear about it on my socials"
+const p  = "hello world, i am a practicing human, techie, and artist. i spend most of my time learning tech, listening to music, scrolling through reddit, and occasionally enjoying watching movies or stand-up comedy. i live in india with my wife and parents. you're welcome to explore more about me and consult me regarding the below fields"
 
-const p1 = "Linux, HTML, CSS, JavaScript, node.js, SQL, MongoDB, SFDC, ServiceNow, JIRA, API Testing on Postman, REST APIs, SOAP, Webhooks, XML, JSON, HTTP methods, GIT, Github. Chrome Developer tools, incident Management, ITIL, analytics, cloud computing, networking basics...etc"
+const p0 = "this space is where you will see white-papers, blogs, one-liners, shower thoughts and memes that i come up with. all original, relatively ;) when i write, you will hear about it on my socials"
 
-const p2 = "i can design images, motion graphics, websites, emails, edit audio and direct video. i have an understanding of design principles and inherent taste for design that overflows from one medium to another seamlessly often helping me visualize better. my experience in web development makes me parallely think of bringing design to reality. tools i use: canva, photoshop, figma, fl studio, davinci resolve, html/css/js for web...etc" 
+const p1 = "HTML, CSS, JavaScript, node.js, SQL, MongoDB, API Testing on Postman, REST APIs, SOAP, Webhooks, XML, JSON, HTTP methods, GIT, Github, Linux, Chrome Developer tools, incident Management, ITIL, SFDC, ServiceNow, JIRA, analytics, cloud computing, networking basics...etc"
+
+const p2 = "i can design images, motion graphics, websites, emails, edit audio and direct video which are minimalist and feel like a breath of fresh air. i have an understanding of design principles and inherent taste for design that overflows from one medium to another seamlessly often helping me visualize better. my experience in web development makes me parallely think of bringing design to reality. tools i use: canva, photoshop, figma, fl studio, davinci resolve, html/css/js for web...etc" 
 
 const p3   = "i can plan, design, segment customers and execute personalised campaigns across all channels and then analyse performace after, also work with ad audience for better engagement and sales. tools i use: hubspot, bloomreach engagement cdxp, salesforce marketing cloud, google ads, facebook ads, google analytics...etc";
 
@@ -135,8 +145,11 @@ contact.addEventListener('click', function(e){
   prose.innerHTML = "";
   buttons.innerHTML = "";
   typeWriter5();
-  setTimeout(backbutton,3000 );
+  setTimeout(backbutton,2500 );
 } );
+
+
+
 
 // human.addEventListener('click', function(e){
 //   e.preventDefault();
