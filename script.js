@@ -32,7 +32,7 @@ const p0 = "this space is where you will see white-papers, blogs, one-liners, sh
 
 const p1 = "HTML, CSS, JavaScript, node.js, SQL, MongoDB, API Testing on Postman, REST APIs, SOAP, Webhooks, XML, JSON, HTTP methods, GIT, Github, Linux, Chrome Developer tools, incident Management, ITIL, SFDC, ServiceNow, JIRA, analytics, cloud computing, networking basics...etc"
 
-const p2 = "i can design images, motion graphics, websites, emails, edit audio and direct video which are minimalist and feel like a breath of fresh air. i have an understanding of design principles and inherent taste for design that overflows from one medium to another seamlessly often helping me visualize better. my experience in web development makes me parallely think of bringing design to reality. tools i use: canva, photoshop, figma, fl studio, davinci resolve, html/css/js for web...etc" 
+const p2 = "i can design images, motion graphics, websites, emails, edit audio and direct video which are minimalist and feel like a breath of fresh air. i have an understanding of design principles and inherent taste for design that overflows from one medium to another seamlessly, which   often helping me visualize better. my experience in web development makes me parallely think of bringing design to reality. tools i use: canva, photoshop, figma, fl studio, davinci resolve, html/css/js for web...etc" 
 
 const p3   = "i can plan, design, segment customers and execute personalised campaigns across all channels and then analyse performace after, also work with ad audience for better engagement and sales. tools i use: hubspot, bloomreach engagement cdxp, salesforce marketing cloud, google ads, facebook ads, google analytics...etc";
 
@@ -57,7 +57,7 @@ const backbutton =  function(){
 
 setTimeout( function(){
   buttons.style.display = "flex";
-} , 8000) 
+} , 9000) 
 
 
 function typeWriter1() {
@@ -130,7 +130,7 @@ design.addEventListener('click', function(e){
   prose.innerHTML = "";
   buttons.innerHTML = "";
   typeWriter3();
-  setTimeout(backbutton,12000);
+  setTimeout(backbutton,13000);
 } );
 
 marketing.addEventListener('click', function(e){
@@ -139,7 +139,7 @@ marketing.addEventListener('click', function(e){
   prose.innerHTML = "";
   buttons.innerHTML = "";
   typeWriter4();
-  setTimeout(backbutton,6000 );
+  setTimeout(backbutton,9000 );
 } );
 
 contact.addEventListener('click', function(e){
