@@ -26,7 +26,7 @@ const walk = function(){
 
 walk();
 
-const p  = "hello world, i am a practicing human, techie, and artist. i spend most of my time learning tech, listening to music, scrolling through reddit, and occasionally enjoying watching movies or stand-up comedy. i live in india with my wife and parents. you're welcome to explore more about me and consult me regarding the below fields"
+const p  = "hello world, i am a practicing human, techie, and an artist. i spend most of my time learning and tech, listening to music, surfing the internet, and i occasionally enjoy watching movies and stand-up comedy. i live in india with my wife and parents. you're welcome to explore more about me and consult me regarding the below fields"
 
 const p0 = "this space is where you will see white-papers, blogs, one-liners, shower thoughts and memes that i come up with. all original, relatively ;) when i write, you will hear about it on my socials"
 
