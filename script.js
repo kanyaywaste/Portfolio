@@ -30,7 +30,7 @@ const p  = "hello world, i am a practicing human, techie, and an artist. i spend
 
 const p0 = "this space is where you will see white-papers, blogs, one-liners, shower thoughts and memes that i come up with. all original, relatively ;) when i write, you will hear about it on my socials"
 
-const p1 = "HTML, CSS, JavaScript, node.js, SQL, MongoDB, REST APIs, SOAP, API Testing on Postman, Webhooks, GIT, Github, Linux, Chrome Developer tools, incident Management, ITIL, SFDC, ServiceNow, JIRA, analytics, cloud computing, networking basics, XML, JSON, HTTP methods...etc"
+const p1 = "HTML, CSS, JavaScript, node.js, SQL, MongoDB, REST APIs, SOAP API, API Testing on Postman, Webhooks, GIT, Github, Linux, Chrome Developer tools, incident Management, ITIL, SFDC, ServiceNow, JIRA, analytics, cloud computing, networking basics, XML, JSON, HTTP methods...etc"
 
 const p2 = "i can design images, motion graphics, websites, emails, edit audio and direct video which are minimalist and feel like a breath of fresh air. i have an understanding of design principles and inherent taste for design that overflows from one medium to another seamlessly, often helping me visualize better. my experience in web development makes me parallely think of bringing design to reality. tools i use: canva, photoshop, figma, fl studio, davinci resolve, html/css/js for web...etc" 
 
